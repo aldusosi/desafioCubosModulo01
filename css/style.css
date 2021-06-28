@@ -1,0 +1,318 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Open Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.head{
+    background-color:#FFFFFF;
+    padding:14.4px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+.container-head{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0 auto;
+    align-items:center;
+    max-width: 116em;
+}
+.navegacao-head a{
+    color: #545454;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-right:4.8rem;
+    text-decoration:none;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    max-width: 116em;
+    margin:56px auto;
+}
+.artigo{
+    max-width: 73em;
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding-top:2.4em;
+    margin-bottom: 4em;
+}
+.artigo img{
+    max-width: 73rem;
+}
+.texto p, .artigo h1, p.data{
+    margin-left:2.4em;
+    margin-right:2.4em;
+}
+.contato{
+    padding:2.4em;
+}
+.texto p{
+    max-width:68.2em;
+    color:#545454;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1.9rem;
+    margin-top:2.4rem;
+    margin-bottom:2.4rem;
+}
+.info-contato span{
+    display:inline-block;
+    font-weight: bold;
+    margin-bottom: 1.4em;
+    margin-top: 2.6rem;
+    margin-left: 0.8rem;
+}
+.info-contato span, .info-contato  p{
+    font-size:1.4rem;
+    color:#000000;
+}
+.artigo h2{
+    margin-top:32px;
+    margin-bottom: 26px;
+}
+.artigo h1{
+    font-weight: bold;
+    font-size: 2.4em;
+    line-height: 3.3rem;
+    margin-bottom:0.8rem;
+    margin-left:2.4rem;
+}
+.contato h1, .contato p {
+    margin-left:0;
+}
+.buttom{
+    display:flex;
+    justify-content:flex-end;
+}
+.buttom a{
+    color:#FE0078;
+    text-decoration:none;
+    font-size: 1.4em;
+    padding:1.2rem 2.4rem;
+    display: inline-block;
+    border:1px solid #FE0078;
+    border-radius: 2rem;
+    margin-bottom:2.4rem;
+}
+.comentar{
+    margin:48px 0;
+}
+.comentar, .buttom input{
+    color:white;
+    text-decoration:none;
+    font-size: 1.4em;
+    padding:1.2rem 2.4rem;
+    display: inline-block;
+    background-color: #FE0078;
+    border:none;
+    border-radius: 2rem;
+    margin-bottom:2.4rem;
+}
+.buttom a{
+    margin-right:2.4rem;
+}
+.buttom-form a{
+    color:#FFFFFF;
+    margin-top:4.8rem;
+    margin-right:0;
+    background-color:#FE0078;
+}
+.buttom a:hover, .comentar:hover{
+    color:#FFFFFF;
+    background-color:#FE0078;
+    cursor:pointer;
+}
+p.data{
+    color: #929292;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom:1.4rem;
+    margin-left:2.4rem;
+}
+
+/*
+------Menu lateral------
+*/
+.menu-lateral{
+    max-width:38rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+input#pesquisa{
+    min-width:34rem;
+    margin-top:2rem;
+    margin-bottom:2.5rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    border:1px solid #EEEEEE;
+    border-radius:1rem;
+    padding-top:1.7rem;
+    padding-bottom:1.6rem;
+    padding-left:2rem;
+}
+input#pesquisa:hover{
+    border:1px solid #FE0078;
+}
+input#pesquisa:focus{
+    border:none;
+}
+.titulo h3{
+font-weight: bold;
+font-size: 1.8rem;
+line-height: 2.5rem;
+}
+.categoria a{
+    color:#545454;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.titulo{
+    margin-bottom:3.4rem;
+    margin-left:1.1rem;
+    padding-left:1.1rem;
+    padding-top:0.9rem;
+    padding-bottom:0.9rem;
+    border-left:2px solid #FE0078;
+}
+.categoria-items{
+    display:flex;
+    flex-direction:row;
+    border-bottom:2px dotted #EEEEEE;
+    justify-content:space-between;
+    padding-bottom:1.6rem;
+    padding-right:1.8rem;
+    margin-top:1.6rem;
+    margin-right:2rem;
+    margin-left:1.1rem;
+    
+}
+.categoria-items:hover{
+    border-bottom:2px dotted #FE0078;
+}
+.categoria-items a:hover{
+    color:#FE0078;
+    
+}
+.categoria-items a{
+    padding-left:1.1rem;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    cursor: pointer;
+}
+.distanciar{
+    margin-bottom:4rem;
+}
+.propaganda{
+    max-width:34rem;
+    margin-left:20px;
+    margin-bottom:3.2rem;
+    padding:9.6rem 0;
+    text-align: center;
+    background-color:#EEEEEE;
+}
+.propaganda p{
+    color: #545454;
+    font-weight: normal;
+    font-size: 3.6rem;
+    line-height: 4.9rem;
+}
+ul{
+    padding-inline-start: 1.6rem;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-left:4.8rem;
+}
+.txt-black{
+    padding-bottom:4.6rem;
+}
+.txt-black p{
+    color:#000000;
+}
+.negrito{
+    font-style:italic;
+}
+.text-area textarea{
+    width:73.2rem;
+    border:1px solid #EEEEEE;
+    margin-top:0.8rem;
+}
+.text-area textarea:hover{
+    border:1px solid #FE0078;
+    cursor: pointer;
+}
+.comentarios{
+    width: 73.2rem;
+    margin:0 auto;
+}
+.comentarios h1{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    margin-bottom:2.4rem;
+}
+.formulario-de-dados{
+    max-width: 73.2rem;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:2.4rem;
+}
+.formulario-de-contato{
+    max-width: 68.2rem;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:2.4rem;
+}
+label{
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.dados input{
+    display:flex;
+    flex-direction: column;
+    border:1px solid #EEEEEE;
+    border-radius: 2px;
+    margin-top:0.8rem;
+    margin-left:0;
+    width: 35.4rem;
+    height: 4.2rem;
+    
+}
+.dados-contato input{
+    display:flex;
+    flex-direction: column;
+    border:1px solid #EEEEEE;
+    border-radius: 2px;
+    margin-top:0.8rem;
+    margin-left:0;
+    width: 32.9rem;
+    height: 4.2rem;
+}
+.dados-sobre input{
+    width:93%;
+    border-radius: 2px;
+}
+.dados input:hover, .dados-contato input:hover{
+    border:1px solid #FE0078;
+    cursor: pointer;
+}
+.rodape{
+    color:#FFFFFF;
+    background-color: #000000;
+    padding-top:2.5rem;
+    padding-bottom:2.6rem;
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+}
